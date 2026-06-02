@@ -61,4 +61,4 @@ This project bridges the gap between raw spatial data and actionable climate pol
 
 **Author:** Eniola Akinnibi  
 *GIS Specialist and Data Analyst*  
-[LinkedIn Profile](www.linkedin.com/in/eniola-akinnibi)
+[LinkedIn Profile](https://www.linkedin.com/in/eniola-akinnibi)
