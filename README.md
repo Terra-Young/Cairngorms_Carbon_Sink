@@ -8,7 +8,7 @@ The final deliverable includes a custom **Bivariate Matrix** and a **3D Volumetr
 ## Study Area Justification
 **Cairngorms National Park, Scotland** was selected due to its massive scale and varying degrees of ecological degradation. Its complex topography provides an ideal environment to model terrain constraints against climate intervention opportunities.
 
-## Tech Stack and Data Sources
+## Tools and Data Sources
 * **Software:** ArcGIS Pro (Spatial Analyst, 3D Analyst)
 * **Elevation Data:** Copernicus GLO-30 Digital Elevation Model (DEM)
 * **Multispectral Imagery:** Sentinel-2 (ESA)
