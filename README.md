@@ -28,19 +28,19 @@ The final deliverable includes a custom **Bivariate Matrix** and a **3D Volumetr
 * **Objective:** Ensure zero ecological disruption to existing ecosystems or human infrastructure.
 * **Process:** Built a binary exclusion mask to completely remove deep peat bogs, hydrological networks, existing infrastructure, and already-healthy vegetation from the analysis.
 
-![Strict Constraints Modeling](map2.png)
+![Strict Constraints Modeling](Cairngorms_02_Constraints.png)
 
 ### 3. Topographical Suitability Model
 * **Objective:** Determine where trees will survive and grow the fastest.
 * **Process:** Derived *Slope* and *Aspect* metrics from the Copernicus 30m DEM. Applied a weighted overlay to rank the remaining available land into four tiers (Low, Medium, High, and Maximum Potential), heavily favoring flat, south-facing valleys that receive maximum solar radiation.
 
-![Topographical Suitability Model](map3.png)
+![Topographical Suitability Model](Cairngorms_03_Suitability_Matrix.png)
 
 ### 4. The Bivariate Priority Matrix
 * **Objective:** Cross-reference need versus viability.
 * **Process:** Constructed a 3x3 Bivariate Matrix mapping Ecological Degradation (X-axis) against Terrain Suitability (Y-axis). Isolated the target class (*Value 33*) representing the "jackpot" zones that are highly degraded but possess perfect terrain for immediate afforestation.
 
-![Bivariate Priority Matrix](map4.png)
+![Bivariate Priority Matrix](Cairngorms_04_Bivariate_Priority.png)
 
 ### 5. 3D Volumetric Sequestration Modeling
 * **Objective:** Quantify the environmental impact of the target zones.
@@ -50,7 +50,7 @@ The final deliverable includes a custom **Bivariate Matrix** and a **3D Volumetr
   * Applied the standard Project Drawdown temperate forest sequestration metric (*300 metric tons of CO2 equivalent per hectare over a 30-year lifecycle*).
   * Extruded the polygons in an ArcGIS Pro Local Scene based on the calculated CO2 tonnage, applying holographic transparencies and shadow illumination over a 3D terrain skin to visualize the volumetric carbon capture.
 
-![3D Volumetric Sequestration Model](map5.png)
+![3D Volumetric Sequestration Model](Cairngorms_05_3D_Carbon_Volume.png)
 
 ---
 
@@ -61,4 +61,4 @@ This project bridges the gap between raw spatial data and actionable climate pol
 
 **Author:** Eniola Akinnibi  
 *GIS Specialist and Data Analyst*  
-[LinkedIn Profile](Insert_Your_LinkedIn_URL_Here)
+[LinkedIn Profile](www.linkedin.com/in/eniola-akinnibi)
